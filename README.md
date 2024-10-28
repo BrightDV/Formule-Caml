@@ -7,7 +7,7 @@
 
 ## Règles du jeu
 - Au début du tour, le joueur précise s'il souhaite changer de vitesse. Il doit répondre par `o` (oui) ou `n` (non).
-  - S'il souhaite changer de vitesse, il doit alors préciser s'il veut monter (`m`) ou descendre (`d`) la vitesse. Il n'est possible de changer que d'**une vitesse par tour**. Le nombre de cases tirée par le "dé" dépend de la vitesse:
+  - S'il souhaite changer de vitesse, il doit alors préciser s'il veut monter (`m`) ou descendre (`d`) la vitesse. Il n'est possible de changer que d'**une vitesse par tour**. Le nombre de cases tiré par le "dé" dépend de la vitesse:
     - 1e: une case
     - 2e: 2 à 6 cases
     - 3e: 6 à 12 cases
@@ -39,5 +39,5 @@
 - Si un joueur touche la bordure de la piste, il perd 20 points de durabilité.
 - Si un joueur rentre dans l'autre joueur:
   - Le joueur qui a causé l'accident perd 10 points de durabilité.
-  - Le joueur qui a subit l'accident perd 15 points de durabilité.
+  - Le joueur qui a subi l'accident perd 15 points de durabilité.
 - Lorsque un joueur arrive à la case `A`, il gagne la course et c'est la fin du jeu.
