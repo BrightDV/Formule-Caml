@@ -167,7 +167,7 @@ let rec deplacer jeu joueur dir nb =
 
 let afficher_circuit type_case = 
   match type_case with
-  | 0 -> print_string"0"
+  | 0 -> print_string " "
   | 1 -> print_string "-"
   | 2 -> print_string "D"
   | 3 -> print_string "A"
@@ -176,7 +176,7 @@ let afficher_circuit type_case =
   | 6 -> print_string "|"
   | 7 -> print_string "_"
   | 8 -> print_string "‾"
-  | _ -> print_string "0" (* type de surface inconnu *)
+  | _ -> print_string " " (* type de surface inconnu *)
 
 let afficher_stats jeu joueur =
   Printf.printf "######################## Joueur %s ########################\n" (string_of_int (joueur+1));

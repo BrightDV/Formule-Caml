@@ -29,7 +29,7 @@
 
 ## Plateau
 - Les cases où les **déplacements sont possibles** sont uniquement les cases `-` ou la case `D`.
-- Les cases `0` indiquent l'extérieur de la piste.
+- Les cases ` ` indiquent l'extérieur de la piste.
 - Les cases `_`, `/`, `‾`, `\` indiquent les bordures de la piste. Il n'est pas possible d'y aller.
 - La case `A` est uniquement atteignable en venant de la droite.
 - La case `X` est la position du joueur 1.
